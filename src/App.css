@@ -1,3 +1,7 @@
+* {
+  color: antiquewhite;
+}
+
 .App {
   font-family: cursive;
   margin-top: -1px;
@@ -80,46 +84,38 @@ li:hover {
   border: 1px solid white;
 }
 
-.cards-container {
+.cards__container {
+  display: flex;
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.image__container {
+  flex: 3;
+}
+
+.text__container {
+  flex: 1;
+}
+
+.cards__page {
   display: flex;
   justify-content: space-evenly;
-  align-content: center;
-  flex-flow: row;
-  margin: auto;
-  border: 2px solid red;
 }
 
-.cards-content {
-  border: 2px solid red;
-  width: 200px;
-  height: 300px;
-  background-color: rosybrown;
+.image__core {
+  object-fit: fill;
+  border-radius: 50px;
 }
 
-.cards-content-blue {
-  border: 2px solid red;
-  width: 200px;
-  height: 300px;
-  background-color: rgb(15, 12, 168);
-}
-
-.cards-content-green {
-  border: 2px solid red;
-  width: 200px;
-  height: 300px;
-  background-color: rgb(8, 252, 28);
-}
-
-.cards-content-pink {
-  border: 2px solid red;
-  width: 200px;
-  height: 300px;
-  background-color: rgb(251, 128, 255);
-}
-
-.cards-content-yellow {
-  border: 2px solid red;
-  width: 200px;
-  height: 300px;
-  background-color: rgb(219, 243, 4);
+.bigger {
+  object-fit: fill;
+  border-radius: 50px;
+  width: 230px;
+  height: 230px;
 }

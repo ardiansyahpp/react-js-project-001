@@ -20,8 +20,8 @@ const Navbar = () => {
                 <Link to='/cards' style={navvStyle}>
                     <li>Cards</li>
                 </Link>
-                <Link to='/working-page' style={navvStyle}>
-                    <li>Working Page</li>
+                <Link to='/ebook-library' style={navvStyle}>
+                    <li> E-Book Library</li>
                 </Link>
                 <Link to='about' style={navvStyle}>
                     <li>About Me</li>

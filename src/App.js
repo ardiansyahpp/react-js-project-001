@@ -1,11 +1,11 @@
 import './App.css';
 import AboutMe from "./Pages/AboutMe";
 import Cards from "./Pages/Cards";
-import WorkingPage from "./Pages/WorkingPage";
 import Navbar from "./Pages/Navbar";
 import Footer from "./Pages/Footer";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import 'antd/dist/antd.css';
+import EbookLibrary from "./Pages/EbookLibrary";
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/cards' component={Cards}/>
         <Route path='/about' component={AboutMe}/>
-        <Route path='/working-page' component={WorkingPage}/>
+        <Route path='/ebook-library' component={EbookLibrary}/>
         <Footer />
       </div>
       </Switch>
